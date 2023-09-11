@@ -12469,3 +12469,33 @@ h2.title {
     font-size: 18px; } }
 
 /*# sourceMappingURL=style-starter.css.map */
+/* Add this CSS to your existing styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+.social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  transition: color 0.7s ease;
+}
+
+.social a:hover {
+
+  color: var(--blue);
+}
+
+/* You can adjust the padding, font-size, and other styles as needed */
